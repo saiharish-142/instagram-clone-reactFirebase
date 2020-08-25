@@ -30,6 +30,11 @@
   justify-content: center;
 }
 
+.app__postList{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .app__signup{
   display: flex;
   flex-direction: column;

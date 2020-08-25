@@ -165,7 +165,7 @@ function App () {
         </div>
       </div>
       <div className='app__posts'>
-        <div>
+        <div className='app__postList'>
           {
             posts.map(({id, post}) => (
               <Post key={id} postId={id} user={user} username={post.username} caption={post.caption} imageUrl={post.imageUrl} />
